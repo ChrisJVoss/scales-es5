@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.electron.scale-system
+productName: Scale System
+win:
+  target: NSIS
+  icon: build/icon.ico
+mac:
+  icon: build/icon.icns
+electronVersion: 3.0.10
